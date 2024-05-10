@@ -10,9 +10,9 @@
   ```bash
   pip install requests
   ```
-  #### Precisa  instalar a Framework de Flask
+  #### Precisa  instalar a Framework de Flask para yfinance, pode pser instalado separadamente.
   ```bash
-  pip install Flask
+  pip install Flask yfinance
   ```
 ### Utilizando a API
   #### Comando para executar a API
