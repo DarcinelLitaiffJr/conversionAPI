@@ -2,7 +2,6 @@
 
 ## Pré-requisitos
 ### 🤖 Ferramentas/Tecnologias:
-- Token da Exchange [Exchange Rate API](https://www.exchangerate-api.com/)
 - Instale [Python3](https://www.python.org/downloads/) para Mac, Linux, ou Windows:
 
 ### Introdução:
@@ -10,7 +9,7 @@
   ```bash
   pip install requests
   ```
-  #### Precisa  instalar a Framework de Flask para yfinance, pode pser instalado separadamente.
+  #### Precisa  instalar a Framework de Flask para yfinance, pode ser instalado separadamente.
   ```bash
   pip install Flask yfinance
   ```
