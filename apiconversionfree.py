@@ -1,5 +1,9 @@
 from flask import Flask, jsonify, request
 import yfinance as yf
+import warnings
+
+# Ignorar FutureWarning e outros avisos
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 app = Flask(__name__)
 
@@ -44,4 +48,4 @@ def rate():
         return jsonify({'error': 'Não foi possível obter a cotação.'}), 404
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
